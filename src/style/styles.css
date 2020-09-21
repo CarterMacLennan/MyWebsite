@@ -1,0 +1,45 @@
+html,body {
+    height: 44vh;
+    max-height: 100vh;
+    background-color: #34495e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NavBar */
+.navbar{
+    background-color: #34495e;
+    height: 8vh;
+}
+
+/* Card */
+.row{
+  padding: 0 8px;
+}
+
+.card{
+  margin: 16px 0;
+}
+
+.card-title{
+  text-decoration: ;
+}
+
+.card-body{
+  padding: 0 16px;
+}
+
+.card-img-top{
+  width: 200px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.tag{
+  margin: 2px;
+}
+
+.link{
+  padding: 0 8px 0 0;
+  margin: 16px 0;
+}
+
