@@ -6,7 +6,7 @@ export default function Resume() {
     return (
         <div>
             <Navigation />
-            <embed className = "resume" src={pdf}/>
+            <iframe src={pdf} className="resume" > </iframe>
         </div>
     );
 }

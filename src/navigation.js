@@ -6,10 +6,10 @@ export default function Navigation(){
             <div class="navbar-collapse collapse">
                 <ul class="navbar-nav pull-left">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/">Home</a>
+                        <a class="nav-link" href="/MyWebsite/#/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Resume">Resume</a>
+                        <a class="nav-link" href="/MyWebsite/#/Resume">Resume</a>
                     </li>
                 </ul>
             </div>
