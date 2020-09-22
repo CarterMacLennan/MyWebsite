@@ -1,12 +1,15 @@
 import React from "react";
-import Navigation from "./navigation";
-import GridLayout from "./gridlayout";
+import Home from "./home";
+import Resume from "./resume";
+import { Route, Switch } from 'react-router-dom';
 
 export default function App(){
     return(
-        <div>
-            <Navigation />
-            <GridLayout/>
-        </div>
+        <main>
+            <Switch>
+                <Route path="/" component={Home} exact />
+                <Route path="/Resume" component={Resume} />
+            </Switch>
+        </main>
     );
 }

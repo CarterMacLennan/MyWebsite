@@ -22,7 +22,7 @@ export default [{
         { name: "VSCode", color: "success" },
         { name: "Git", color: "success" }],
     redirects:
-        [{ name: "fab fa-github", link: "https://github.com/CarterMacLennan/LilConsistentMe", style: "btn-dark" }]
+        [{ name: "fab fa-github", link: "https://github.com/CarterMacLennan/MyWebsite", style: "btn-dark" }]
 },{
     information: {
         title: "Lil Consistent Me",
