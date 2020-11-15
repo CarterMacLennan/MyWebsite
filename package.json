@@ -12,7 +12,7 @@
     "react-dom": "^16.13.1",
     "react-pdf": "^5.0.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,5 +36,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "A portfolio website built in **React.js** to showcase my projects and updated resume: <br>\r - https://cartermaclennan.github.io/MyWebsite/#/",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarterMacLennan/MyWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarterMacLennan/MyWebsite/issues"
   }
 }
