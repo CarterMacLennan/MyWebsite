@@ -11,20 +11,23 @@ export default [{
         image: mernApp,
     },
     languages:
-        [{ name: "ES6", color: "primary" },
-        { name: "MongoDB", color: "primary" },
+        [{ name: "MongoDB", color: "primary" },
         { name: "Node.js", color: "primary" },
+        { name: "ES6", color: "primary" },
         { name: "CSS3", color: "primary" },
         { name: "HTML5", color: "primary" }],
     libraries:
         [{ name: "React.js", color: "danger" },
         { name: "Mongoose", color: "danger" },
         { name: "Express.js", color: "danger" },
-        { name: "Bootstrap", color: "danger" }],
+        { name: "Bootstrap", color: "danger" },
+        { name: "Axios", color: "danger" },
+        { name: "react-textarea-autosize", color: "danger" },
+        { name: "Font Awesome", color: "danger" }],
     tools:
         [{ name: "Git", color: "success" },
         { name: "Chrome Dev Tools", color: "success" },
-        { name: "Font Awesome", color: "success" }],
+        { name: "VSCode", color: "success" }],
     redirects:
         [{ name: "fab fa-github", link: "https://github.com/CarterMacLennan/MERN-App", style: "btn-dark" }]
 },{
