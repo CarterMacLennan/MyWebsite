@@ -1,3 +1,4 @@
+import React from "react";
 import Profile from "./img/profile.png";
 import RunSmart from "./img/RunSmart.png";
 import LilConsistentMe from "./img/LilConsistentMe.png";
@@ -7,7 +8,7 @@ import CampusGymAnalytics from "./img/CampusGymAnalytics.png";
 export default [{
     information: {
         title: "MERN Notes App",
-        desc: "A note taking web app developed using the MERN Software Stack. ",
+        desc: "A note taking web app developed using the MERN Software Stack. Developed in tandem with my research on how JavaScript evolved from client-side to server-side.",
         image: mernApp,
     },
     languages:
@@ -71,7 +72,7 @@ export default [{
 },{
     information: {
         title: "Campus Gym Analytics",
-        desc : "A web application that allows the user to predict how crowded a campus gym will be.",
+        desc : "A web application that allows the user to predict how crowded a campus gym will be. The result is calculated using multiple linear regression derived from a source on Kaggle.",
         image: CampusGymAnalytics,
     },
     languages:
@@ -94,7 +95,7 @@ export default [{
 },{
     information: {
         title: "RunSmart",
-        desc: "A privacy-respecting GPS tracker for outdoor fitness.",
+        desc: "A privacy-respecting GPS tracker for outdoor fitness, developed in a group of three.",
         image: RunSmart,
     },
     languages:
