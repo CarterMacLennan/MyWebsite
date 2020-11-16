@@ -1,4 +1,3 @@
-import React from "react";
 import Profile from "./img/profile.png";
 import RunSmart from "./img/RunSmart.png";
 import LilConsistentMe from "./img/LilConsistentMe.png";

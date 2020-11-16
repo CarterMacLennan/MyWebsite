@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import pdf from "./pdf/Resume.pdf";
 import Navigation from "./navigation";
 
