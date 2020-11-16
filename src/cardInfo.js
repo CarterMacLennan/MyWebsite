@@ -8,7 +8,7 @@ import CampusGymAnalytics from "./img/CampusGymAnalytics.png";
 export default [{
     information: {
         title: "MERN Notes App",
-        desc: "A note taking web app developed using the MERN Software Stack. It was developed in tandem with my research on how JavaScript evolved from client-side to server-side.",
+        desc: "A note taking web app developed using the MERN Software Stack. ",
         image: mernApp,
     },
     languages:
@@ -72,7 +72,7 @@ export default [{
 },{
     information: {
         title: "Campus Gym Analytics",
-        desc : "A web application that allows the user to predict how crowded a campus gym will be. The result is calculated using multiple linear regression derived from a source on Kaggle.",
+        desc : "A web application that allows the user to predict how crowded a campus gym will be.",
         image: CampusGymAnalytics,
     },
     languages:
