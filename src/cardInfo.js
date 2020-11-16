@@ -3,11 +3,12 @@ import Profile from "./img/profile.png";
 import RunSmart from "./img/RunSmart.png";
 import LilConsistentMe from "./img/LilConsistentMe.png";
 import mernApp from "./img/mernApp.png";
+import CampusGymAnalytics from "./img/CampusGymAnalytics.png";
 
 export default [{
     information: {
         title: "MERN Notes App",
-        desc: "A note taking web app developed using the MERN Software Stack.",
+        desc: "A note taking web app developed using the MERN Software Stack. It was developed in tandem with my research on how JavaScript evolved from client-side to server-side.",
         image: mernApp,
     },
     languages:
@@ -68,6 +69,29 @@ export default [{
     redirects:
         [{ name: "fab fa-github", link: "https://github.com/CarterMacLennan/LilConsistentMe", style: "btn-dark" },
         { name: "fab fa-google-play", link: "https://play.google.com/store/apps/details?id=com.myappproject.lilconsistentme", style: "btn-outline-dark" }],
+},{
+    information: {
+        title: "Campus Gym Analytics",
+        desc : "A web application that allows the user to predict how crowded a campus gym will be. The result is calculated using multiple linear regression derived from a source on Kaggle.",
+        image: CampusGymAnalytics,
+    },
+    languages:
+        [{ name: "Python", color: "primary" },
+        { name: "HTML", color: "primary" }],
+    libraries:
+        [{ name: "pandas", color: "danger" },
+        { name: "numpy", color: "danger" },
+        { name: "sklearn", color: "danger" },
+        { name: "seaborn", color: "danger" },
+        { name: "tornado", color: "danger" },
+        { name: "os", color: "danger" },
+        { name: "pickle", color: "danger" },
+        { name: "matplotlib", color: "danger" }],
+    tools:
+        [{ name: "Juniper", color: "success" },
+        { name: "Git", color: "success" }],
+    redirects:
+        [{ name: "fab fa-github", link: "https://github.com/CarterMacLennan/CampusGymAnalytics", style: "btn-dark" }]
 },{
     information: {
         title: "RunSmart",
