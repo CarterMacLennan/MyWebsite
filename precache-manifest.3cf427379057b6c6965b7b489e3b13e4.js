@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4702d4e32a954cb5b7424925f3f2b32",
+    "revision": "1543f724dc9be74b9eb4ae72a3eb744b",
     "url": "/MyWebsite/index.html"
   },
   {
-    "revision": "20e2678ab13a72abde83",
+    "revision": "188c5ec3ba7c31dfaef6",
     "url": "/MyWebsite/static/css/main.aeb7999c.chunk.css"
   },
   {
-    "revision": "87b870f924ce5d3af3e2",
-    "url": "/MyWebsite/static/js/2.eaf3eacf.chunk.js"
+    "revision": "548b83751482ee06a5c6",
+    "url": "/MyWebsite/static/js/2.459792fe.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/MyWebsite/static/js/2.eaf3eacf.chunk.js.LICENSE.txt"
+    "url": "/MyWebsite/static/js/2.459792fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20e2678ab13a72abde83",
-    "url": "/MyWebsite/static/js/main.482143b1.chunk.js"
+    "revision": "188c5ec3ba7c31dfaef6",
+    "url": "/MyWebsite/static/js/main.fdacb8e9.chunk.js"
   },
   {
     "revision": "671bd5fa3146e2a2892c",
     "url": "/MyWebsite/static/js/runtime-main.f3cf8d64.js"
+  },
+  {
+    "revision": "39e6b149ef5053320c1814b59f8f33b0",
+    "url": "/MyWebsite/static/media/CampusGymAnalytics.39e6b149.png"
   },
   {
     "revision": "6c5c149c6cbfff0dadee22a927d1920e",
