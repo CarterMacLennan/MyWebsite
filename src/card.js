@@ -5,7 +5,7 @@ import Links from "./links";
 export default function Card(props){
     return (
         <div className="card">
-            <img src={props.project.information.image} className="card-img-top proj-image" alt="..." />
+            <img src={props.project.information.image} className="card-img-top mx-auto d-block proj-image" alt="..." />
             <div className="card-body">
                 {/* information */}
                 <h5 className="card-title"><strong>{props.project.information.title}</strong></h5>
