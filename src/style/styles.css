@@ -1,28 +1,36 @@
+/* General */
 html,body {
-    height: 44vh;
-    max-height: 100vh;
-    background-color: #34495e;
     font-family: 'Montserrat', sans-serif;
+    background-color: #34495e;
+}
+
+/* Animation */
+AnimatedBackground {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.components-above-anim{
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 /* NavBar */
 .navbar{
-    background-color: #34495e;
-    height: 8vh;
+  height: 8vh;
 }
 
 /* Resume */
 .resume{ 
-width: 100%;
-height: 100vh;
-border: none;
+  width: 100%;
+  height: 100vh;
+  border: none;
 }
 
-/* Card */
-.row{
-  padding: 0 8px;
-}
-
+/* Cards */
 .card{
   margin: 16px 0;
 }
@@ -53,23 +61,27 @@ border: none;
 @media (min-width: 576px) {
   .card-columns {
       column-count: 1;
+      margin: 0 8px;
   }
 }
 
 @media (min-width: 768px) {
   .card-columns {
       column-count: 2;
+      padding: 0 16px;
   }
 }
 
 @media (min-width: 992px) {
   .card-columns {
       column-count: 3;
+      padding: 0 32px;
   }
 }
 
 @media (min-width: 1200px) {
   .card-columns {
       column-count: 4;
+      padding: 0 48px;
   }
 }
