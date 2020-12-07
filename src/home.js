@@ -9,7 +9,7 @@ export default class Home extends React.Component{
   
     this.state = { 
       windowWidth: window.innerWidth, 
-      windowHeight: this.getMaxHeight() + 400,
+      windowHeight: this.getMaxHeight() + 600,
     };
   }
 
