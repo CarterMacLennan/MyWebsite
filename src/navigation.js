@@ -13,7 +13,7 @@ export default function Navigation(){
                     </li>
                 </ul>
             </div>
-            <span className="navbar-text pull-right">last updated: 04/26/2021</span>
+            <span className="navbar-text pull-right">last updated: 07/14/2021</span>
         </nav>
     );
 }
