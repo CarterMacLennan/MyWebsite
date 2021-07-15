@@ -4,20 +4,6 @@ html,body {
     background-color: #34495e;
 }
 
-/* Animation */
-AnimatedBackground {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.components-above-anim{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
 /* NavBar */
 .navbar{
   height: 8vh;

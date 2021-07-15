@@ -5,6 +5,8 @@ import LilConsistentMe from "./img/LilConsistentMe.png";
 import mernApp from "./img/mernApp.png";
 import PokeGUI from "./img/pokeGUI.png";
 import CampusGymAnalytics from "./img/CampusGymAnalytics.png";
+import DoIt from "./img/DoIt.png";
+import SetAssociativeCache from "./img/SetAssociativeCache.png";
 
 export default [{
     information: {
@@ -24,6 +26,45 @@ export default [{
     redirects:
         [{ name: "fab fa-github", link: "https://github.com/CarterMacLennan/LilConsistentMe", style: "btn-dark" },
         { name: "fab fa-google-play", link: "https://play.google.com/store/apps/details?id=com.myappproject.lilconsistentme", style: "btn-outline-dark" }],
+},{
+    information: {
+        title: "Do It!",
+        desc: "Developed in a group of three as part of my Embedded Systems class, Do It! is a combination of the games \"Simon\" and \"Bop it!\". ",
+        image: DoIt,
+    },
+    languages:
+        [{ name: "C", color: "primary" }],
+    libraries:
+        [{ name: "dsPIC microcontroller", color: "danger" },
+        { name: "Freenove I/O devices", color: "danger" }],
+    tools:
+        [{ name: "Git", color: "success" },
+        { name: "MPLAB", color: "success" }],
+    redirects:
+        [{ name: "fab fa-github", link: "https://github.com/CarterMacLennan/DoIt", style: "btn-dark" }],
+},{
+    information: {
+        title: "Campus Gym Analytics",
+        desc : "A web application that allows the user to predict how crowded a campus gym will be. The result is calculated using multiple linear regression derived from a source on Kaggle.",
+        image: CampusGymAnalytics,
+    },
+    languages:
+        [{ name: "Python", color: "primary" },
+        { name: "HTML", color: "primary" }],
+    libraries:
+        [{ name: "pandas", color: "danger" },
+        { name: "numpy", color: "danger" },
+        { name: "sklearn", color: "danger" },
+        { name: "seaborn", color: "danger" },
+        { name: "tornado", color: "danger" },
+        { name: "os", color: "danger" },
+        { name: "pickle", color: "danger" },
+        { name: "matplotlib", color: "danger" }],
+    tools:
+        [{ name: "Juniper", color: "success" },
+        { name: "Git", color: "success" }],
+    redirects:
+        [{ name: "fab fa-github", link: "https://github.com/CarterMacLennan/CampusGymAnalytics", style: "btn-dark" }]
 },{
     information: {
         title: "RunSmart",
@@ -69,6 +110,23 @@ export default [{
         { name: "fab fa-internet-explorer", link: "http://poke-api-gui.herokuapp.com/", style: "btn-outline-dark" }]
 },{
     information: {
+        title: "2-Way Set Associative Cache",
+        desc: "Created in a group of three, a 2-way set-associative cache was implemented, and added to a simple computer architecture to be compared to a reference system using a custom benchmark software. ",
+        image: SetAssociativeCache,
+    },
+    languages:
+        [{ name: "Hexadecimal", color: "primary" },
+        { name: "Assembly", color: "primary" },
+        { name: "MatLab", color: "primary" },
+        { name: "Java", color: "primary" }],
+    libraries:
+        [{ name: "DE2-115 board", color: "danger" }],
+    tools:
+        [{ name: "Quartus Prime", color: "success" }],
+    redirects:
+        [{ name: "fab fa-github", link: "https://github.com/CarterMacLennan/Set-Associative-Cache", style: "btn-dark" }],
+},{
+    information: {
         title: "MERN Notes App",
         desc: "A note taking web app developed using the MERN Software Stack. Developed in tandem with my research on how JavaScript evolved from client-side to server-side.",
         image: mernApp,
@@ -89,29 +147,6 @@ export default [{
         { name: "Axios", color: "success" }],
     redirects:
         [{ name: "fab fa-github", link: "https://github.com/CarterMacLennan/MERN-App", style: "btn-dark" }]
-},{
-    information: {
-        title: "Campus Gym Analytics",
-        desc : "A web application that allows the user to predict how crowded a campus gym will be. The result is calculated using multiple linear regression derived from a source on Kaggle.",
-        image: CampusGymAnalytics,
-    },
-    languages:
-        [{ name: "Python", color: "primary" },
-        { name: "HTML", color: "primary" }],
-    libraries:
-        [{ name: "pandas", color: "danger" },
-        { name: "numpy", color: "danger" },
-        { name: "sklearn", color: "danger" },
-        { name: "seaborn", color: "danger" },
-        { name: "tornado", color: "danger" },
-        { name: "os", color: "danger" },
-        { name: "pickle", color: "danger" },
-        { name: "matplotlib", color: "danger" }],
-    tools:
-        [{ name: "Juniper", color: "success" },
-        { name: "Git", color: "success" }],
-    redirects:
-        [{ name: "fab fa-github", link: "https://github.com/CarterMacLennan/CampusGymAnalytics", style: "btn-dark" }]
 },{
     information: {
         title: "My Personal Website",

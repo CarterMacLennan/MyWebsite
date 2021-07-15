@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from "./pdf/Resume.pdf";
+import pdf from "./pdf/CarterMacLennan_Resume.pdf";
 import Navigation from "./navigation";
 
 export default function Resume() {
